@@ -1,0 +1,28 @@
+{
+  "name": "learning-react",
+  "version": "1.0.0",
+  "description": "Learning React",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/vanshikagitrepo/React-Practice.git"
+  },
+  "author": "Vanshika Goel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanshikagitrepo/React-Practice/issues"
+  },
+  "homepage": "https://github.com/vanshikagitrepo/React-Practice#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browsersList":[
+    "Last 2 versions"
+  ]
+}
