@@ -1,15 +1,71 @@
-.Header {
+.header {
   display: flex;
   justify-content: space-between;
-  border: 2px solid black;
-  padding: 15px;
+  background-color: #d7d5d5;
+  border: 2px solid transparent;
 }
 
-.nav-logo {
+.header:hover {
+  border: 2px solid grey;
+}
+
+.logo {
   height: 100px;
+  padding: 5px;
 }
 
-.usericon {
-  font-size: 50px;
-  color: brown;
+.nav-items ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items ul li {
+  padding: 15px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.search {
+  margin: 15px;
+}
+
+.input-box {
+  width: 200px;
+  font-size: 15px;
+}
+
+.restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.restaurant-card {
+  width: 220px;
+  background-color: rgb(202, 200, 197);
+  border: 2px solid transparent;
+  margin: 5px;
+}
+
+.restaurant-card:hover {
+  border: 2px solid grey;
+}
+
+.restaurant-logo {
+  padding: 10px;
+  width: 90%;
+  height: 30%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  margin: 5px 0px 5px 0px;
+  background-color: #d7d5d5;
+  font-size: 15px;
+  border: 2px solid transparent;
+}
+
+.footer:hover {
+  border: 2px solid grey;
 }
