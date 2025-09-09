@@ -1,3 +1,15 @@
-h1 {
-  color: blueviolet;
+.Header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+.nav-logo {
+  height: 100px;
+}
+
+.usericon {
+  font-size: 50px;
+  color: brown;
 }

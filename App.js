@@ -1,29 +1,26 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 
-// Create a Nested header Element using React.createElement(h1,h2,h3 inside a
-// div with class “title”)
-
-// header>div>h1,h2,h3
-
-const header = React.createElement("div", { className: "title" }, [
-  React.createElement("h1", {}, "Heading 1"),
-  React.createElement("h2", {}, "Heading 2"),
-  React.createElement("h3", {}, "Heading 3"),
-]);
-
-const addon = () => <h1 className="Header"> Functional compoenent</h1>;
-
-const JSXheader = () => {
+const Header = () => {
   return (
-    <div>
-      {addon()}
-      <h1>Heading 1 from JSX</h1>
-      <h2>Heading 2 from JSX</h2>
-      <h3>Heading 3 from JSX</h3>
+    <div className="Header">
+      <div className="logo">
+        <img
+          className="nav-logo"
+          alttxt="nav-logo"
+          src="https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/news8756.jpg"
+        ></img>
+      </div>
+      <div className="search">
+        <input placeholder="Search here..." type="Text" />
+        <button>search</button>
+      </div>
+      <div className="usericon">
+        <i className="fa-solid fa-user"></i>
+      </div>
     </div>
   );
 };
 
 const root = createRoot(document.getElementById("root"));
-root.render(<JSXheader />);
+root.render(<Header />);
