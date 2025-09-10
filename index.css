@@ -69,3 +69,11 @@
 .footer:hover {
   border: 2px solid grey;
 }
+
+.top-rated {
+  margin: 5px;
+}
+
+.top-rated button {
+  font-size: 20px;
+}

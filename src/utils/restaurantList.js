@@ -679,6 +679,748 @@ const restaurantList = [
       },
     },
   },
+  {
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "10362",
+          name: "Aminia",
+          cloudinaryImageId: "jkmjlsbpdvykiwopnmgj",
+          locality: "Shyambazar",
+          areaName: "Hati Bagan",
+          costForTwo: "₹500 for two",
+          cuisines: ["Biryani", "Mughlai", "Indian", "Kebabs", "Tandoor"],
+          avgRating: 4.6,
+          parentId: "3786",
+          avgRatingString: "4.6",
+          totalRatingsString: "61K+",
+          promoted: true,
+          adTrackingId:
+            "cid=32574020~p=3~adgrpid=32574020#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=10362~plpr=COLLECTION~eid=1ead6bbe-e5ca-471e-bbc5-cb3c1ce33160~srvts=1757490633810~collid=83649",
+          sla: {
+            deliveryTime: 35,
+            lastMileTravel: 1.8,
+            serviceability: "SERVICEABLE",
+            slaString: "30-35 mins",
+            lastMileTravelString: "1.8 km",
+            iconType: "ICON_TYPE_EMPTY",
+          },
+          availability: {
+            nextCloseTime: "2025-09-10 23:59:00",
+            opened: true,
+          },
+          badges: {},
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              textBased: {},
+              imageBased: {},
+              textExtendedBadges: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "ITEMS",
+            subHeader: "AT ₹89",
+            logoCtx: {
+              text: "BENEFITS",
+            },
+          },
+          loyaltyDiscoverPresentationInfo: {
+            logoCtx: {
+              logo: "Swiggy%20One%20Lite/One_lite_vertical_logo.png",
+            },
+            freedelMessage: "FREE DELIVERY",
+            badgeType: "BADGE_TYPE_ONE_LITE",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+            commsStyling: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "4.1",
+              ratingCount: "10K+",
+            },
+            source: "GOOGLE",
+            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          campaignId: "32574020",
+        },
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=10362&source=collection&query=Biryani",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+      },
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
+    },
+  },
+  {
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "920809",
+          name: "KFC",
+          cloudinaryImageId: "9e57b3b9478a4a0b114b8ba4e1b5be89",
+          locality: "Baranagar",
+          areaName: "Girish Park",
+          costForTwo: "₹400 for two",
+          cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+          avgRating: 4.4,
+          parentId: "547",
+          avgRatingString: "4.4",
+          totalRatingsString: "1.7K+",
+          promoted: true,
+          adTrackingId:
+            "cid=32821296~p=4~adgrpid=32821296#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=920809~plpr=COLLECTION~eid=8c839ca8-f347-4a7a-8a25-01cc28633d2d~srvts=1757490633810~collid=83649",
+          sla: {
+            deliveryTime: 42,
+            lastMileTravel: 3,
+            serviceability: "SERVICEABLE",
+            slaString: "40-45 mins",
+            lastMileTravelString: "3.0 km",
+            iconType: "ICON_TYPE_EMPTY",
+          },
+          availability: {
+            nextCloseTime: "2025-09-11 00:00:00",
+            opened: true,
+          },
+          badges: {
+            imageBadges: [
+              {
+                imageId: "Rxawards/_CATEGORY-Burger.png",
+                description: "Delivery!",
+              },
+            ],
+          },
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              textBased: {},
+              imageBased: {
+                badgeObject: [
+                  {
+                    attributes: {
+                      imageId: "Rxawards/_CATEGORY-Burger.png",
+                      description: "Delivery!",
+                    },
+                  },
+                ],
+              },
+              textExtendedBadges: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "ITEMS",
+            subHeader: "AT ₹99",
+            logoCtx: {
+              text: "BENEFITS",
+            },
+          },
+          loyaltyDiscoverPresentationInfo: {
+            logoCtx: {
+              logo: "Swiggy%20One%20Lite/One_lite_vertical_logo.png",
+            },
+            freedelMessage: "FREE DELIVERY",
+            badgeType: "BADGE_TYPE_ONE_LITE",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+            commsStyling: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "4.3",
+              ratingCount: "1.8K+",
+            },
+            source: "GOOGLE",
+            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          campaignId: "32821296",
+        },
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=920809&source=collection&query=Biryani",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+      },
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
+    },
+  },
+  {
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "330028",
+          name: "The Good Bowl",
+          cloudinaryImageId:
+            "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/20/41a2ac7b-ae27-487a-ad46-297ddef59671_330028.jpg",
+          locality: "BANGUR AVENUE",
+          areaName: "Lake Town",
+          costForTwo: "₹400 for two",
+          cuisines: ["Biryani", "Pastas", "Punjabi", "Desserts", "Beverages"],
+          avgRating: 4.4,
+          parentId: "7918",
+          avgRatingString: "4.4",
+          totalRatingsString: "1.4K+",
+          promoted: true,
+          adTrackingId:
+            "cid=32860867~p=5~adgrpid=32860867#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=330028~plpr=COLLECTION~eid=8a89785d-c51b-41f1-9916-a10ea2a8b3a8~srvts=1757490633810~collid=83649",
+          sla: {
+            deliveryTime: 44,
+            lastMileTravel: 5.6,
+            serviceability: "SERVICEABLE",
+            slaString: "40-45 mins",
+            lastMileTravelString: "5.6 km",
+            iconType: "ICON_TYPE_EMPTY",
+          },
+          availability: {
+            nextCloseTime: "2025-09-10 23:59:00",
+            opened: true,
+          },
+          badges: {},
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              imageBased: {},
+              textExtendedBadges: {},
+              textBased: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "ITEMS",
+            subHeader: "AT ₹119",
+            logoCtx: {
+              text: "BENEFITS",
+            },
+          },
+          loyaltyDiscoverPresentationInfo: {
+            logoCtx: {
+              logo: "Swiggy%20One%20Lite/One_lite_vertical_logo.png",
+            },
+            freedelMessage: "FREE DELIVERY",
+            badgeType: "BADGE_TYPE_ONE_LITE",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+            commsStyling: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "--",
+            },
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          campaignId: "32860867",
+        },
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=330028&source=collection&query=Biryani",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+      },
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
+    },
+  },
+  {
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "330023",
+          name: "Behrouz Biryani",
+          cloudinaryImageId: "a4ffed13eb197c6df43dfe1c756560e5",
+          locality: "BANGUR AVENUE",
+          areaName: "Lake Town",
+          costForTwo: "₹500 for two",
+          cuisines: ["Biryani", "Kebabs", "Mughlai", "Beverages", "Desserts"],
+          avgRating: 4.3,
+          parentId: "1803",
+          avgRatingString: "4.3",
+          totalRatingsString: "4.4K+",
+          promoted: true,
+          adTrackingId:
+            "cid=32860861~p=6~adgrpid=32860861#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=330023~plpr=COLLECTION~eid=da818790-643c-4394-a21c-bed5afb278f2~srvts=1757490633810~collid=83649",
+          sla: {
+            deliveryTime: 48,
+            lastMileTravel: 5.6,
+            serviceability: "SERVICEABLE",
+            slaString: "45-50 mins",
+            lastMileTravelString: "5.6 km",
+            iconType: "ICON_TYPE_EMPTY",
+          },
+          availability: {
+            nextCloseTime: "2025-09-10 23:59:00",
+            opened: true,
+          },
+          badges: {
+            imageBadges: [
+              {
+                imageId: "newg.png",
+                description: "Gourmet",
+              },
+            ],
+          },
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              imageBased: {
+                badgeObject: [
+                  {
+                    attributes: {
+                      imageId: "newg.png",
+                      description: "Gourmet",
+                    },
+                  },
+                ],
+              },
+              textExtendedBadges: {},
+              textBased: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "ITEMS",
+            subHeader: "AT ₹99",
+            logoCtx: {
+              text: "BENEFITS",
+            },
+          },
+          loyaltyDiscoverPresentationInfo: {
+            logoCtx: {
+              logo: "Swiggy%20One%20Lite/One_lite_vertical_logo.png",
+            },
+            freedelMessage: "FREE DELIVERY",
+            badgeType: "BADGE_TYPE_ONE_LITE",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+            commsStyling: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "--",
+            },
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          campaignId: "32860861",
+        },
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=330023&source=collection&query=Biryani",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+      },
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
+    },
+  },
+  {
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "330029",
+          name: "The Biryani Life",
+          cloudinaryImageId: "er6rxj7skfog1rkzd3su",
+          locality: "BANGUR AVENUE",
+          areaName: "Lake Town",
+          costForTwo: "₹250 for two",
+          cuisines: [
+            "Biryani",
+            "Mughlai",
+            "Lucknowi",
+            "Hyderabadi",
+            "Kebabs",
+            "Desserts",
+            "Beverages",
+          ],
+          avgRating: 4.2,
+          parentId: "8496",
+          avgRatingString: "4.2",
+          totalRatingsString: "419",
+          promoted: true,
+          adTrackingId:
+            "cid=32860869~p=7~adgrpid=32860869#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=330029~plpr=COLLECTION~eid=2d91722f-d46f-47e5-bb07-da55ae272f48~srvts=1757490633811~collid=83649",
+          sla: {
+            deliveryTime: 47,
+            lastMileTravel: 5.6,
+            serviceability: "SERVICEABLE",
+            slaString: "45-50 mins",
+            lastMileTravelString: "5.6 km",
+            iconType: "ICON_TYPE_EMPTY",
+          },
+          availability: {
+            nextCloseTime: "2025-09-10 23:59:00",
+            opened: true,
+          },
+          badges: {},
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              textExtendedBadges: {},
+              textBased: {},
+              imageBased: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "ITEMS",
+            subHeader: "AT ₹159",
+            logoCtx: {
+              text: "BENEFITS",
+            },
+          },
+          loyaltyDiscoverPresentationInfo: {
+            logoCtx: {
+              logo: "Swiggy%20One%20Lite/One_lite_vertical_logo.png",
+            },
+            freedelMessage: "FREE DELIVERY",
+            badgeType: "BADGE_TYPE_ONE_LITE",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+            commsStyling: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "--",
+            },
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          campaignId: "32860869",
+        },
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=330029&source=collection&query=Biryani",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+      },
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
+    },
+  },
+  {
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "1030890",
+          name: "Thalaiva Biryani",
+          cloudinaryImageId:
+            "FOOD_CATALOG/IMAGES/CMS/2025/7/2/8bf3bbe1-bccf-4067-9340-4ef0ce3caf28_4928d658-b637-4deb-8c57-b975167aaf4e.jpeg",
+          locality: "HOWRAH",
+          areaName: "Mali Panchghara",
+          costForTwo: "₹400 for two",
+          cuisines: [
+            "Biryani",
+            "Mughlai",
+            "Lucknowi",
+            "Hyderabadi",
+            "Kebabs",
+            "Desserts",
+            "Beverages",
+          ],
+          avgRating: 4.2,
+          parentId: "582792",
+          avgRatingString: "4.2",
+          totalRatingsString: "98",
+          promoted: true,
+          adTrackingId:
+            "cid=32861279~p=11~adgrpid=32861279#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=1030890~plpr=COLLECTION~eid=e74258fa-323b-40aa-a089-d45e3b5cc1b7~srvts=1757490633811~collid=83649",
+          sla: {
+            deliveryTime: 56,
+            lastMileTravel: 7.8,
+            serviceability: "SERVICEABLE",
+            slaString: "55-65 mins",
+            lastMileTravelString: "7.8 km",
+            iconType: "ICON_TYPE_EMPTY",
+          },
+          availability: {
+            nextCloseTime: "2025-09-10 23:59:00",
+            opened: true,
+          },
+          badges: {},
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              textExtendedBadges: {},
+              textBased: {},
+              imageBased: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "ITEMS",
+            subHeader: "AT ₹89",
+            logoCtx: {
+              text: "BENEFITS",
+            },
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+            commsStyling: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "--",
+            },
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          campaignId: "32861279",
+        },
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=1030890&source=collection&query=Biryani",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+      },
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
+    },
+  },
+  {
+    card: {
+      card: {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        info: {
+          id: "608894",
+          name: "Rang De Basanti Dhaba",
+          cloudinaryImageId:
+            "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/30/b19b192c-738b-476c-b7a2-2dddd369c769_608894.jpg",
+          locality: "Kankurgachhi",
+          areaName: "Kankurgachi",
+          costForTwo: "₹350 for two",
+          cuisines: [
+            "North Indian",
+            "Kebabs",
+            "Biryani",
+            "Punjabi",
+            "Desserts",
+            "Tandoor",
+            "Indian",
+          ],
+          avgRating: 4.5,
+          parentId: "758",
+          avgRatingString: "4.5",
+          totalRatingsString: "10K+",
+          promoted: true,
+          adTrackingId:
+            "cid=32533139~p=13~adgrpid=32533139#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=608894~plpr=COLLECTION~eid=db790b9b-4e71-4918-aaa9-4e7d0728c0f4~srvts=1757490633811~collid=83649",
+          sla: {
+            deliveryTime: 49,
+            lastMileTravel: 5,
+            serviceability: "SERVICEABLE",
+            slaString: "45-50 mins",
+            lastMileTravelString: "5.0 km",
+            iconType: "ICON_TYPE_EMPTY",
+          },
+          availability: {
+            nextCloseTime: "2025-09-11 01:00:00",
+            opened: true,
+          },
+          badges: {
+            imageBadges: [
+              {
+                imageId: "Rxawards/_CATEGORY-North%20Indian.png",
+                description: "Delivery!",
+              },
+            ],
+          },
+          isOpen: true,
+          type: "F",
+          badgesV2: {
+            entityBadges: {
+              imageBased: {
+                badgeObject: [
+                  {
+                    attributes: {
+                      description: "Delivery!",
+                      imageId: "Rxawards/_CATEGORY-North%20Indian.png",
+                    },
+                  },
+                ],
+              },
+              textExtendedBadges: {},
+              textBased: {},
+            },
+          },
+          aggregatedDiscountInfoV3: {
+            header: "50% OFF",
+            subHeader: "UPTO ₹100",
+            logoCtx: {
+              text: "BENEFITS",
+            },
+          },
+          loyaltyDiscoverPresentationInfo: {
+            logoCtx: {
+              logo: "Swiggy%20One%20Lite/One_lite_vertical_logo.png",
+            },
+            freedelMessage: "FREE DELIVERY",
+            badgeType: "BADGE_TYPE_ONE_LITE",
+          },
+          orderabilityCommunication: {
+            title: {},
+            subTitle: {},
+            message: {},
+            customIcon: {},
+            commsStyling: {},
+          },
+          differentiatedUi: {
+            displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            differentiatedUiMediaDetails: {
+              mediaType: "ADS_MEDIA_ENUM_IMAGE",
+              lottie: {},
+              video: {},
+            },
+          },
+          reviewsSummary: {},
+          displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+          restaurantOfferPresentationInfo: {},
+          externalRatings: {
+            aggregatedRating: {
+              rating: "4.6",
+              ratingCount: "3.0K+",
+            },
+            source: "GOOGLE",
+            sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+          },
+          ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          campaignId: "32533139",
+        },
+        analytics: {},
+        cta: {
+          link: "swiggy://menu?restaurant_id=608894&source=collection&query=Biryani",
+          text: "RESTAURANT_MENU",
+          type: "DEEPLINK",
+        },
+        widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food",
+      },
+      relevance: {
+        type: "RELEVANCE_TYPE_ON_MENU_RETURN",
+        sectionId: "MENU_RETURN_FOOD",
+      },
+    },
+  },
 ];
 
 export default restaurantList;
