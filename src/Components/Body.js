@@ -2,6 +2,7 @@ import RestaurantCard from "./RestaurantCard";
 // import restaurantList from "../utils/restaurantList";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
+import { SWIGGY_API_URL } from "../utils/constants";
 
 const Body = () => {
   const [reslist, setreslist] = useState([]);
@@ -13,9 +14,7 @@ const Body = () => {
   }, []);
 
   const restaurantData = async () => {
-    const data = await fetch(
-      "https://corsproxy.io/https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.614133&lng=88.373442&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-    );
+    const data = await fetch(SWIGGY_API_URL);
     const json = await data.json();
 
     setreslist(

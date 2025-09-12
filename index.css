@@ -26,6 +26,11 @@
   font-size: 20px;
 }
 
+.Link-decoration {
+  text-decoration: none;
+  color: black;
+}
+
 .login-logout-btn {
   padding: 5px;
   margin: 0px 5px;
