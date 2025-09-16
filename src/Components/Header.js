@@ -6,26 +6,26 @@ const Header = () => {
   const [loginValue, setloginValue] = useState("Logout");
 
   return (
-    <div className="header">
-      <div className="nav-logo">
-        <img className="logo" alttxt="nav-logo" src={LOGO_URL}></img>
+    <div className="flex justify-between  bg-orange-200">
+      <div className="nav-logo p-2">
+        <img className="w-56" alttxt="nav-logo" src={LOGO_URL}></img>
       </div>
-      <div className="nav-items">
-        <ul>
-          <Link to="/" className="Link-decoration">
+      <div className="nav-items ">
+        <ul className="p-4 m-4 flex ">
+          <Link to="/" className="p-4  text-2xl text-black">
             {" "}
             <li>Home</li>
           </Link>
-          <Link to="/about" className="Link-decoration">
+          <Link to="/about" className="p-4 text-2xl text-black">
             {" "}
             <li>About Us</li>
           </Link>
-          <Link to="/contactus" className="Link-decoration">
+          <Link to="/contactus" className="p-4 text-2xl text-black">
             <li>Contact Us</li>
           </Link>
-          <li>Cart</li>
+          <li className="p-4 text-2xl text-black">Cart</li>
           <button
-            className="login-logout-btn"
+            className="p-4 text-2xl text-black  border-1 rounded-2xl bg-amber-700 cursor-pointer"
             onClick={() => {
               loginValue === "Logout"
                 ? setloginValue("Login")

@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  width: 280px;
+  height: 400px;
+  margin: 10px;
+  background-color: rgb(216, 211, 211);
+}
+
 /* .header {
   display: flex;
   justify-content: space-between;
@@ -96,15 +108,4 @@
 .top-rated button {
   font-size: 20px;
 }
-
-.shimmer-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.shimmer-card {
-  width: 280px;
-  height: 400px;
-  margin: 10px;
-  background-color: rgb(216, 211, 211);
-} */
+*/

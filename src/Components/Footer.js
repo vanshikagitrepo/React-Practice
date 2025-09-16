@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <div className="footer">
-      <p>Copyright</p>
-      <p>Links</p>
-      <p>Address</p>
-      <p>Contact</p>
+    <div className="footer bg-orange-200 flex h-15 justify-center p-4  text-xl">
+      <p className="px-4">Copyright</p>
+      <p className="px-4">Links</p>
+      <p className="px-4">Address</p>
+      <p className="px-4">Contact</p>
     </div>
   );
 };

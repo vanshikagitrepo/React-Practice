@@ -4,7 +4,7 @@ const Error = () => {
   const error = useRouteError();
 
   return (
-    <div>
+    <div className="Contactus bg-amber-100 h-130 text-2xl">
       <h1>Oops !! Something went wrong !!</h1>
       <h2>{error.data} </h2>
       <h3>

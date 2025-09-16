@@ -30,17 +30,18 @@ const Body = () => {
     <Shimmer />
   ) : (
     <div className="body">
-      <div className="search-container">
+      <div className="search-container flex p-4">
         <div className="search">
           <input
             type="Text"
             placeholder="Search here ..."
-            className="input-box"
+            className="input-box px-4 py-2 rounded-2xl text-xl  bg-amber-100 text-black"
             onChange={(e) => {
               setsearchTxt(e.target.value);
             }}
           />
           <button
+            className="  bg-amber-700 m-4 px-4 py-2 rounded-2xl text-xl cursor-pointer"
             onClick={() => {
               const FilteredRestaurant = reslist.filter((restaurant) => {
                 return restaurant.info.name
@@ -54,7 +55,7 @@ const Body = () => {
           </button>
         </div>
 
-        <div className="top-rated">
+        <div className="top-rated  bg-amber-700 m-4 px-4 py-2 rounded-2xl text-xl cursor-pointer">
           <button
             onClick={() => {
               const TopRatedRestaurant = reslist.filter((restaurant) => {
@@ -68,7 +69,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="restaurant-container">
+      <div className="restaurant-container flex flex-wrap justify-evenly">
         {filteredrestaurant.map((restaurant) => (
           <Link
             className="Link-decoration"
