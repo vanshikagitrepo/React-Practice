@@ -1,15 +1,12 @@
-import react from "react";
+import React from "react";
 import UserClass from "./UserClass";
 
-class AboutClass extends react.Component {
+class AboutClass extends React.Component {
   render() {
     return (
       <div>
-        <h1>This is a FOOD Delivery App class based component!!</h1>
-        <UserClass
-          name={"Vanshika Goel (class)"}
-          location={"India , Kolkata"}
-        />
+        <h1>This is about Food delivery APP !!</h1>
+        <UserClass name={"Vanshika Goel"} location={"India , Kolkata"} />
       </div>
     );
   }
