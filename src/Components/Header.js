@@ -6,7 +6,7 @@ const Header = () => {
   const [loginValue, setloginValue] = useState("Logout");
 
   return (
-    <div className="flex justify-between  bg-orange-200">
+    <div className="flex justify-between  bg-[#f5cb5c]">
       <div className="nav-logo p-2">
         <img className="w-56" alttxt="nav-logo" src={LOGO_URL}></img>
       </div>
@@ -25,7 +25,7 @@ const Header = () => {
           </Link>
           <li className="p-4 text-2xl text-black">Cart</li>
           <button
-            className="p-4 text-2xl text-black  border-1 rounded-2xl bg-amber-700 cursor-pointer"
+            className="p-4 text-2xl text-black  border-1 rounded-2xl bg-[#e8eddf] cursor-pointer"
             onClick={() => {
               loginValue === "Logout"
                 ? setloginValue("Login")

@@ -35,13 +35,13 @@ const Body = () => {
           <input
             type="Text"
             placeholder="Search here ..."
-            className="input-box px-4 py-2 rounded-2xl text-xl  bg-amber-100 text-black"
+            className="input-box px-4 py-2 rounded-2xl text-xl  bg-[#cfdbd5] text-black"
             onChange={(e) => {
               setsearchTxt(e.target.value);
             }}
           />
           <button
-            className="  bg-amber-700 m-4 px-4 py-2 rounded-2xl text-xl cursor-pointer"
+            className="  bg-[#e8eddf] m-4 px-4 py-2 rounded-2xl text-xl cursor-pointer"
             onClick={() => {
               const FilteredRestaurant = reslist.filter((restaurant) => {
                 return restaurant.info.name
@@ -55,7 +55,7 @@ const Body = () => {
           </button>
         </div>
 
-        <div className="top-rated  bg-amber-700 m-4 px-4 py-2 rounded-2xl text-xl cursor-pointer">
+        <div className="top-rated  bg-[#e8eddf]  m-4 px-4 py-2 rounded-2xl text-xl cursor-pointer">
           <button
             onClick={() => {
               const TopRatedRestaurant = reslist.filter((restaurant) => {
